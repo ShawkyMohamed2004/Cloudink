@@ -37,47 +37,10 @@ CloudInk is a beautiful and intuitive note-taking application built with Flutter
 
 > 📌 **Click on any image to view full size**
 
-### ☀️ Light Mode
-
-<p align="center">
-  <a href="screenshots/login_light.png"><img src="screenshots/login_light.png" alt="Login" width="110"/></a>
-  <a href="screenshots/signup_light.png"><img src="screenshots/signup_light.png" alt="Sign Up" width="110"/></a>
-  <a href="screenshots/notes_light.png"><img src="screenshots/notes_light.png" alt="Notes" width="110"/></a>
-  <a href="screenshots/folders_light.png"><img src="screenshots/folders_light.png" alt="Folders" width="110"/></a>
-  <a href="screenshots/folder_detail_light.png"><img src="screenshots/folder_detail_light.png" alt="Folder Detail" width="110"/></a>
-  <a href="screenshots/delete_light.png"><img src="screenshots/delete_light.png" alt="Delete" width="110"/></a>
-  <a href="screenshots/logout_light.png"><img src="screenshots/logout_light.png" alt="Logout" width="110"/></a>
-</p>
-<p align="center">
-  <code>Login</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Sign Up</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Notes</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Folders</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Folder Detail</code>&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Delete</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Logout</code>
-</p>
-
-### 🌙 Dark Mode
-
-<p align="center">
-  <a href="screenshots/login_dark.png"><img src="screenshots/login_dark.png" alt="Login" width="110"/></a>
-  <a href="screenshots/signup_dark.png"><img src="screenshots/signup_dark.png" alt="Sign Up" width="110"/></a>
-  <a href="screenshots/notes_dark.png"><img src="screenshots/notes_dark.png" alt="Notes" width="110"/></a>
-  <a href="screenshots/folders_dark.png"><img src="screenshots/folders_dark.png" alt="Folders" width="110"/></a>
-  <a href="screenshots/folder_detail_dark.png"><img src="screenshots/folder_detail_dark.png" alt="Folder Detail" width="110"/></a>
-  <a href="screenshots/delete_dark.png"><img src="screenshots/delete_dark.png" alt="Delete" width="110"/></a>
-  <a href="screenshots/logout_dark.png"><img src="screenshots/logout_dark.png" alt="Logout" width="110"/></a>
-</p>
-<p align="center">
-  <code>Login</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Sign Up</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Notes</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Folders</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Folder Detail</code>&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Delete</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <code>Logout</code>
-</p>
+| Theme | Login | Sign Up | Notes | Folders | Folder Detail | Delete | Logout |
+|:-----:|:-----:|:-------:|:-----:|:-------:|:-------------:|:------:|:------:|
+| ☀️ **Light** | <a href="screenshots/login_light.png"><img src="screenshots/login_light.png" width="100"/></a> | <a href="screenshots/signup_light.png"><img src="screenshots/signup_light.png" width="100"/></a> | <a href="screenshots/notes_light.png"><img src="screenshots/notes_light.png" width="100"/></a> | <a href="screenshots/folders_light.png"><img src="screenshots/folders_light.png" width="100"/></a> | <a href="screenshots/folder_detail_light.png"><img src="screenshots/folder_detail_light.png" width="100"/></a> | <a href="screenshots/delete_light.png"><img src="screenshots/delete_light.png" width="100"/></a> | <a href="screenshots/logout_light.png"><img src="screenshots/logout_light.png" width="100"/></a> |
+| 🌙 **Dark** | <a href="screenshots/login_dark.png"><img src="screenshots/login_dark.png" width="100"/></a> | <a href="screenshots/signup_dark.png"><img src="screenshots/signup_dark.png" width="100"/></a> | <a href="screenshots/notes_dark.png"><img src="screenshots/notes_dark.png" width="100"/></a> | <a href="screenshots/folders_dark.png"><img src="screenshots/folders_dark.png" width="100"/></a> | <a href="screenshots/folder_detail_dark.png"><img src="screenshots/folder_detail_dark.png" width="100"/></a> | <a href="screenshots/delete_dark.png"><img src="screenshots/delete_dark.png" width="100"/></a> | <a href="screenshots/logout_dark.png"><img src="screenshots/logout_dark.png" width="100"/></a> |
 
 ## 🛠️ Technology Stack
 
