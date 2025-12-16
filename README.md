@@ -1,36 +1,86 @@
 # CloudInk - Note Taking App 📝☁️
 
-CloudInk is a beautiful and intuitive note-taking application built with Flutter. Store your ideas, thoughts, and important notes in a clean and organized interface.
+<p align="center">
+  <img src="assets/images/logo.png" alt="CloudInk Logo" width="150"/>
+</p>
 
-## Features ✨
+<p align="center">
+  <strong>Your Ideas, Everywhere ☁️✨</strong>
+</p>
 
-- **Beautiful Splash Screen** - Welcoming animation with CloudInk logo
-- **User Authentication** - Login and Sign up functionality
-- **Create Notes** - Add notes with custom titles and descriptions
-- **Color Coding** - Choose from 4 beautiful colors for your notes (Blue, Red, Purple, Green)
-- **Edit Notes** - Tap on any note to edit its content
-- **Delete Notes** - Easy note deletion with confirmation dialog
-- **Local Storage** - All notes are stored locally using SharedPreferences
-- **Responsive Design** - Clean and modern UI that works great on all devices
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart" alt="Dart"/>
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green" alt="Platform"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"/>
+</p>
 
-## Screenshots 📱
+---
 
-The app includes:
-- Splash screen with animated CloudInk logo
-- Login/Signup screens with form validation
-- Home screen displaying all notes in a beautiful card layout
-- Add/Edit note screen with color selection
-- Smooth navigation and animations
+CloudInk is a beautiful and intuitive note-taking application built with Flutter. Store your ideas, thoughts, and important notes in a clean and organized interface with support for **Light** and **Dark** themes.
 
-## Technology Stack 🛠️
+## ✨ Features
+
+- 🎨 **Light & Dark Theme** - Beautiful UI in both light and dark modes
+- 🔐 **User Authentication** - Secure Login and Sign up functionality
+- 📝 **Create Notes** - Add notes with custom titles and descriptions
+- 🎯 **Color Coding** - Choose from beautiful colors for your notes (Pink, Purple, Blue, Green)
+- 📁 **Folders Organization** - Organize your notes into folders
+- ✏️ **Edit Notes** - Tap on any note to edit its content
+- 🗑️ **Delete Notes** - Easy note deletion with confirmation dialog
+- 💾 **Cloud Sync** - Sync your notes with Firebase
+- 📱 **Responsive Design** - Clean and modern UI that works great on all devices
+
+---
+
+## 📱 Screenshots
+
+### Authentication Screens
+
+| Light Mode | Dark Mode |
+|:----------:|:---------:|
+| ![Login Light](screenshots/login_light.png) | ![Login Dark](screenshots/login_dark.png) |
+| ![Signup Light](screenshots/signup_light.png) | ![Signup Dark](screenshots/signup_dark.png) |
+
+### Home Screen - Notes
+
+| Light Mode | Dark Mode |
+|:----------:|:---------:|
+| ![Notes Light](screenshots/notes_light.png) | ![Notes Dark](screenshots/notes_dark.png) |
+
+### Home Screen - Folders
+
+| Light Mode | Dark Mode |
+|:----------:|:---------:|
+| ![Folders Light](screenshots/folders_light.png) | ![Folders Dark](screenshots/folders_dark.png) |
+
+### Folder Details
+
+| Light Mode | Dark Mode |
+|:----------:|:---------:|
+| ![Folder Detail Light](screenshots/folder_detail_light.png) | ![Folder Detail Dark](screenshots/folder_detail_dark.png) |
+
+### Dialogs
+
+| Delete Note (Light) | Delete Note (Dark) |
+|:----------:|:---------:|
+| ![Delete Light](screenshots/delete_light.png) | ![Delete Dark](screenshots/delete_dark.png) |
+
+| Logout (Light) | Logout (Dark) |
+|:----------:|:---------:|
+| ![Logout Light](screenshots/logout_light.png) | ![Logout Dark](screenshots/logout_dark.png) |
+
+## 🛠️ Technology Stack
 
 - **Flutter** - Cross-platform mobile development framework
 - **Dart** - Programming language
-- **SharedPreferences** - Local data storage
+- **Firebase** - Backend and Authentication
+- **SharedPreferences** - Local data caching
+- **Provider** - State management
 - **UUID** - Unique identifier generation
 - **Intl** - Date formatting
 
-## Dependencies 📦
+## 📦 Dependencies
 
 ```yaml
 dependencies:
@@ -40,6 +90,10 @@ dependencies:
   shared_preferences: ^2.0.15
   uuid: ^3.0.7
   intl: ^0.19.0
+  provider: ^6.0.0
+  firebase_core: latest
+  firebase_auth: latest
+  cloud_firestore: latest
 ```
 
 ## Getting Started 🚀
@@ -60,75 +114,137 @@ dependencies:
    flutter run
    ```
 
-## App Structure 📁
+## 📁 App Structure
 
 ```
 lib/
-├── main.dart                 # App entry point
+├── main.dart                      # App entry point
 ├── models/
-│   └── note.dart            # Note data model
+│   ├── note.dart                  # Note data model
+│   └── folder.dart                # Folder data model
 ├── screens/
-│   ├── splash_screen.dart   # Splash screen with animation
-│   ├── login_screen.dart    # User login interface
-│   ├── signup_screen.dart   # User registration interface
-│   ├── home_screen.dart     # Main notes display
-│   └── add_note_screen.dart # Note creation/editing
-└── services/
-    └── notes_service.dart   # Data management service
+│   ├── login_screen.dart          # User login interface
+│   ├── signup_screen.dart         # User registration interface
+│   ├── home_screen.dart           # Main notes & folders display
+│   ├── add_note_screen.dart       # Note creation/editing
+│   ├── add_folder_screen.dart     # Folder creation
+│   └── folder_detail_screen.dart  # Folder contents view
+├── services/
+│   ├── auth_provider.dart         # Authentication management
+│   ├── notes_service.dart         # Notes data management
+│   ├── notes_provider.dart        # Notes state management
+│   ├── folder_service.dart        # Folders data management
+│   ├── folders_provider.dart      # Folders state management
+│   └── theme_provider.dart        # Theme management (Light/Dark)
+└── widgets/
+    └── theme_switcher.dart        # Theme toggle widget
 ```
 
-## Features in Detail 🔍
+## 🔍 Features in Detail
 
-### Authentication
-- Simple email/password validation
+### 🎨 Theme Support
+- **Light Mode** - Clean beige/cream background with dark text
+- **Dark Mode** - Elegant dark gray background with light text
+- Smooth theme switching with persistent preference
+- Consistent color scheme across both themes
+
+### 🔐 Authentication
+- Email/password validation
+- Firebase Authentication integration
 - Persistent login state
-- Secure logout functionality
+- Secure logout with confirmation dialog
 
-### Note Management
+### 📝 Note Management
 - Create notes with titles and descriptions
-- Choose from 4 predefined colors
+- Choose from colorful note cards (Pink, Purple, Blue, Green)
 - Edit existing notes by tapping on them
-- Delete notes with confirmation
+- Delete notes with confirmation dialog
 - Automatic date tracking
+- Assign notes to folders
 
-### Data Storage
-- Local storage using SharedPreferences
-- JSON serialization for note data
-- Persistent data across app sessions
+### 📁 Folder Organization
+- Create custom folders with colors
+- Add descriptions to folders
+- View notes within each folder
+- Easy folder management
 
-## Design Principles 🎨
+### 💾 Data Storage
+- Cloud sync with Firebase Firestore
+- Local caching with SharedPreferences
+- Real-time data synchronization
+- Persistent data across devices
 
-- **Material Design** - Following Google's design guidelines
-- **Color Consistency** - Using a cohesive color scheme
+## 🎨 Design Principles
+
+- **Material Design 3** - Following Google's latest design guidelines
+- **Adaptive Theming** - Seamless light and dark mode support
+- **Color Consistency** - Cohesive color scheme with accent colors
 - **User Experience** - Intuitive navigation and interactions
 - **Accessibility** - Clear text and appropriate contrast ratios
 
-## Color Scheme 🌈
+## 🌈 Color Scheme
 
-- **Primary Blue**: #2196F3
-- **Accent Gold**: #F5B041
-- **Dark Blue**: #2C3E50
-- **Light Gray**: #F5F5F5
-- **Text Gray**: #7F8C8D
+### Light Theme
+| Element | Color |
+|---------|-------|
+| Background | `#F5F5DC` (Beige) |
+| Card Background | `#FFFFFF` |
+| Primary Accent | `#F5B041` (Orange) |
+| Text Primary | `#2C3E50` |
 
-## Future Enhancements 🔮
+### Dark Theme
+| Element | Color |
+|---------|-------|
+| Background | `#1E1E1E` (Dark Gray) |
+| Card Background | `#2D2D2D` |
+| Primary Accent | `#F5B041` (Orange) |
+| Text Primary | `#FFFFFF` |
 
-- Cloud synchronization
-- Rich text editing
-- Note categories and tags
-- Search functionality
-- Export/Import features
-- Dark mode support
-- Reminder notifications
+### Note Colors
+| Color | Light | Dark |
+|-------|-------|------|
+| Pink | `#F48FB1` | `#C2185B` |
+| Purple | `#CE93D8` | `#7B1FA2` |
+| Blue | `#81D4FA` | `#1976D2` |
+| Green | `#A5D6A7` | `#388E3C` |
 
-## Contributing 🤝
+## 🔮 Future Enhancements
+
+- [ ] Rich text editing with formatting
+- [ ] Note categories and tags
+- [ ] Search functionality
+- [ ] Export/Import features
+- [ ] Reminder notifications
+- [ ] Share notes feature
+- [ ] Note pinning
+- [ ] Archive functionality
+
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License 📄
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Developer
+
+**Shawky Mohamed**
+
+- GitHub: [@ShawkyMohamed2004](https://github.com/ShawkyMohamed2004)
 
 ---
 
-**CloudInk** - Your Ideas, Everywhere ☁️✨
+<p align="center">
+  <strong>CloudInk</strong> - Your Ideas, Everywhere ☁️✨
+</p>
+
+<p align="center">
+  Made with ❤️ using Flutter
+</p>
