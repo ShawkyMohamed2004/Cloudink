@@ -40,25 +40,43 @@ CloudInk is a beautiful and intuitive note-taking application built with Flutter
 ### ☀️ Light Mode
 
 <p align="center">
-  <a href="screenshots/login_light.png"><img src="screenshots/login_light.png" alt="Login Light" width="130"/></a>
-  <a href="screenshots/signup_light.png"><img src="screenshots/signup_light.png" alt="Signup Light" width="130"/></a>
-  <a href="screenshots/notes_light.png"><img src="screenshots/notes_light.png" alt="Notes Light" width="130"/></a>
-  <a href="screenshots/folders_light.png"><img src="screenshots/folders_light.png" alt="Folders Light" width="130"/></a>
-  <a href="screenshots/folder_detail_light.png"><img src="screenshots/folder_detail_light.png" alt="Folder Detail Light" width="130"/></a>
-  <a href="screenshots/delete_light.png"><img src="screenshots/delete_light.png" alt="Delete Light" width="130"/></a>
-  <a href="screenshots/logout_light.png"><img src="screenshots/logout_light.png" alt="Logout Light" width="130"/></a>
+  <a href="screenshots/login_light.png"><img src="screenshots/login_light.png" alt="Login" width="110"/></a>
+  <a href="screenshots/signup_light.png"><img src="screenshots/signup_light.png" alt="Sign Up" width="110"/></a>
+  <a href="screenshots/notes_light.png"><img src="screenshots/notes_light.png" alt="Notes" width="110"/></a>
+  <a href="screenshots/folders_light.png"><img src="screenshots/folders_light.png" alt="Folders" width="110"/></a>
+  <a href="screenshots/folder_detail_light.png"><img src="screenshots/folder_detail_light.png" alt="Folder Detail" width="110"/></a>
+  <a href="screenshots/delete_light.png"><img src="screenshots/delete_light.png" alt="Delete" width="110"/></a>
+  <a href="screenshots/logout_light.png"><img src="screenshots/logout_light.png" alt="Logout" width="110"/></a>
+</p>
+<p align="center">
+  <code>Login</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Sign Up</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Notes</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Folders</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Folder Detail</code>&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Delete</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Logout</code>
 </p>
 
 ### 🌙 Dark Mode
 
 <p align="center">
-  <a href="screenshots/login_dark.png"><img src="screenshots/login_dark.png" alt="Login Dark" width="130"/></a>
-  <a href="screenshots/signup_dark.png"><img src="screenshots/signup_dark.png" alt="Signup Dark" width="130"/></a>
-  <a href="screenshots/notes_dark.png"><img src="screenshots/notes_dark.png" alt="Notes Dark" width="130"/></a>
-  <a href="screenshots/folders_dark.png"><img src="screenshots/folders_dark.png" alt="Folders Dark" width="130"/></a>
-  <a href="screenshots/folder_detail_dark.png"><img src="screenshots/folder_detail_dark.png" alt="Folder Detail Dark" width="130"/></a>
-  <a href="screenshots/delete_dark.png"><img src="screenshots/delete_dark.png" alt="Delete Dark" width="130"/></a>
-  <a href="screenshots/logout_dark.png"><img src="screenshots/logout_dark.png" alt="Logout Dark" width="130"/></a>
+  <a href="screenshots/login_dark.png"><img src="screenshots/login_dark.png" alt="Login" width="110"/></a>
+  <a href="screenshots/signup_dark.png"><img src="screenshots/signup_dark.png" alt="Sign Up" width="110"/></a>
+  <a href="screenshots/notes_dark.png"><img src="screenshots/notes_dark.png" alt="Notes" width="110"/></a>
+  <a href="screenshots/folders_dark.png"><img src="screenshots/folders_dark.png" alt="Folders" width="110"/></a>
+  <a href="screenshots/folder_detail_dark.png"><img src="screenshots/folder_detail_dark.png" alt="Folder Detail" width="110"/></a>
+  <a href="screenshots/delete_dark.png"><img src="screenshots/delete_dark.png" alt="Delete" width="110"/></a>
+  <a href="screenshots/logout_dark.png"><img src="screenshots/logout_dark.png" alt="Logout" width="110"/></a>
+</p>
+<p align="center">
+  <code>Login</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Sign Up</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Notes</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Folders</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Folder Detail</code>&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Delete</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code>Logout</code>
 </p>
 
 ## 🛠️ Technology Stack
@@ -220,9 +238,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Developer
 
