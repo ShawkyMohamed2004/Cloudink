@@ -35,40 +35,41 @@ CloudInk is a beautiful and intuitive note-taking application built with Flutter
 
 ## 📱 Screenshots
 
+> 📌 **Click on any image to view full size**
+
 ### Authentication Screens
 
-| Light Mode | Dark Mode |
-|:----------:|:---------:|
-| ![Login Light](screenshots/login_light.png) | ![Login Dark](screenshots/login_dark.png) |
-| ![Signup Light](screenshots/signup_light.png) | ![Signup Dark](screenshots/signup_dark.png) |
+<p align="center">
+  <a href="screenshots/login_light.png"><img src="screenshots/login_light.png" alt="Login Light" width="200"/></a>
+  <a href="screenshots/login_dark.png"><img src="screenshots/login_dark.png" alt="Login Dark" width="200"/></a>
+</p>
+<p align="center">
+  <a href="screenshots/signup_light.png"><img src="screenshots/signup_light.png" alt="Signup Light" width="200"/></a>
+  <a href="screenshots/signup_dark.png"><img src="screenshots/signup_dark.png" alt="Signup Dark" width="200"/></a>
+</p>
 
-### Home Screen - Notes
+### Home Screen - Notes & Folders
 
-| Light Mode | Dark Mode |
-|:----------:|:---------:|
-| ![Notes Light](screenshots/notes_light.png) | ![Notes Dark](screenshots/notes_dark.png) |
+<p align="center">
+  <a href="screenshots/notes_light.png"><img src="screenshots/notes_light.png" alt="Notes Light" width="200"/></a>
+  <a href="screenshots/notes_dark.png"><img src="screenshots/notes_dark.png" alt="Notes Dark" width="200"/></a>
+  <a href="screenshots/folders_light.png"><img src="screenshots/folders_light.png" alt="Folders Light" width="200"/></a>
+  <a href="screenshots/folders_dark.png"><img src="screenshots/folders_dark.png" alt="Folders Dark" width="200"/></a>
+</p>
 
-### Home Screen - Folders
+### Folder Details & Dialogs
 
-| Light Mode | Dark Mode |
-|:----------:|:---------:|
-| ![Folders Light](screenshots/folders_light.png) | ![Folders Dark](screenshots/folders_dark.png) |
+<p align="center">
+  <a href="screenshots/folder_detail_light.png"><img src="screenshots/folder_detail_light.png" alt="Folder Detail Light" width="200"/></a>
+  <a href="screenshots/folder_detail_dark.png"><img src="screenshots/folder_detail_dark.png" alt="Folder Detail Dark" width="200"/></a>
+  <a href="screenshots/delete_light.png"><img src="screenshots/delete_light.png" alt="Delete Light" width="200"/></a>
+  <a href="screenshots/delete_dark.png"><img src="screenshots/delete_dark.png" alt="Delete Dark" width="200"/></a>
+</p>
 
-### Folder Details
-
-| Light Mode | Dark Mode |
-|:----------:|:---------:|
-| ![Folder Detail Light](screenshots/folder_detail_light.png) | ![Folder Detail Dark](screenshots/folder_detail_dark.png) |
-
-### Dialogs
-
-| Delete Note (Light) | Delete Note (Dark) |
-|:----------:|:---------:|
-| ![Delete Light](screenshots/delete_light.png) | ![Delete Dark](screenshots/delete_dark.png) |
-
-| Logout (Light) | Logout (Dark) |
-|:----------:|:---------:|
-| ![Logout Light](screenshots/logout_light.png) | ![Logout Dark](screenshots/logout_dark.png) |
+<p align="center">
+  <a href="screenshots/logout_light.png"><img src="screenshots/logout_light.png" alt="Logout Light" width="200"/></a>
+  <a href="screenshots/logout_dark.png"><img src="screenshots/logout_dark.png" alt="Logout Dark" width="200"/></a>
+</p>
 
 ## 🛠️ Technology Stack
 
