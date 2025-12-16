@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color matching Cloudink app theme -->
+    <color name="launch_background_color">#E8DCC6</color>
+	<color name="ic_launcher_background">#ffffff</color>
+</resources>
